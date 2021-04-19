@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" stylesheets="@main.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutX="-1.0" layoutY="-1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1091.0" prefWidth="1931.0" style="-fx-background-color: #272d4f;" stylesheets="@main.css">
+         <children>
+            <Button layoutX="857.0" layoutY="198.0" mnemonicParsing="false" onAction="#SwitchToHomeScene" prefHeight="191.0" prefWidth="205.0" style="-fx-background-color: #4a5286;">
+               <graphic>
+                  <Circle radius="58.0" stroke="BLACK" strokeType="INSIDE">
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.05092592537403107" green="0.5412808656692505" blue="1.0" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Circle>
+               </graphic>
+            </Button>
+            <Label fx:id="FireLabel" layoutX="947.0" layoutY="372.0" text="Play" textFill="WHITE" />
+            <Button layoutX="857.0" layoutY="430.0" mnemonicParsing="false" onAction="#SwitchToCredits" prefHeight="191.0" prefWidth="205.0" style="-fx-background-color: #4a5286;">
+               <graphic>
+                  <Circle radius="58.0" stroke="BLACK" strokeType="INSIDE">
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.05092592537403107" green="0.5412808656692505" blue="1.0" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Circle>
+               </graphic>
+            </Button>
+            <Label layoutX="940.0" layoutY="604.0" text="Credits" textFill="WHITE" />
+            <Separator layoutX="-1.0" layoutY="137.0" prefHeight="9.0" prefWidth="1920.0" />
+            <Label layoutX="938.0" layoutY="693.0" text="Next Level" textFill="WHITE" />
+            <Button fx:id="closeButton" layoutX="857.0" layoutY="693.0" mnemonicParsing="false" onAction="#CloseGame" prefHeight="191.0" prefWidth="205.0" style="-fx-background-color: #4a5286;">
+               <graphic>
+                  <Circle radius="58.0" stroke="BLACK" strokeType="INSIDE">
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.05092592537403107" green="0.5412808656692505" blue="1.0" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Circle>
+               </graphic>
+            </Button>
+            <Label layoutX="748.0" layoutY="14.0" text="STEM Story" textFill="WHITE">
+               <font>
+                  <Font size="84.0" />
+               </font>
+            </Label>
+            <Label layoutX="946.0" layoutY="867.0" text="Quit" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
