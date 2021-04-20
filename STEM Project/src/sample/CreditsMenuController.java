@@ -34,7 +34,7 @@ public class CreditsMenuController {
     }
 
     public void revealJosiahCredits(){
-       CreditOutput.setText("Josiah did nothing");
+       CreditOutput.setText("Josiah designed the icon, helped with play testing, and came up with parts of the early story ");
     }
 
     public void revealHassebCredit(){

@@ -40,7 +40,7 @@ public class ManagmentDecionController {
         MainBackend ManagmentFrontEnd = new MainBackend();
         ManagmentFrontEnd.incermentdecion(1);
 
-       ManagmentFrontEnd.RandomEvent2A();
+       ManagmentFrontEnd.RandomEvent3A();
 
        String randomEvent = ManagmentFrontEnd.highScore;
 
