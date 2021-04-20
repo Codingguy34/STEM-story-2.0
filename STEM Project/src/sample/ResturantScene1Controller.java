@@ -35,7 +35,7 @@ public class ResturantScene1Controller {
 
         MainBackend ResturantFrontEnd = new MainBackend();
         ResturantFrontEnd.incermentdecion(1);
-        ResturantFrontEnd.RandomEvent1A();
+        ResturantFrontEnd.RandomEvent4B();
 
         String RandomEventHolder = ResturantFrontEnd.highScore;
 
@@ -49,7 +49,7 @@ public class ResturantScene1Controller {
 
         MainBackend ResturantFrontEnd = new MainBackend();
         ResturantFrontEnd.incermentdecion(1);
-        ResturantFrontEnd.RandomEvent1A();
+        ResturantFrontEnd.RandomEvent4B();
 
         String RandomEventHolder = ResturantFrontEnd.highScore;
 
