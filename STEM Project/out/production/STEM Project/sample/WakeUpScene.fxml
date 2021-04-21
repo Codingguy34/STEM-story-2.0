@@ -17,7 +17,7 @@
          <children>
             <Pane prefHeight="141.0" prefWidth="1920.0" style="-fx-background-color: #4a5286;" />
             <Pane layoutX="757.0" layoutY="409.0" prefHeight="1120.0" prefWidth="458.0" rotate="-36.9" style="-fx-background-color: #ef8380;" />
-            <Label prefHeight="168.0" prefWidth="1920.0" text="Prompt: You wake up and you are almost late fo rwork but you're very tired" textFill="#7b8cff">
+            <Label prefHeight="168.0" prefWidth="1920.0" text="Prompt: You wake up and you are almost late for work but you're very tired" textFill="#7b8cff">
                <font>
                   <Font size="49.0" />
                </font>

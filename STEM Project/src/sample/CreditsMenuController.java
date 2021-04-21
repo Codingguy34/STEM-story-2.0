@@ -30,20 +30,20 @@ public class CreditsMenuController {
 
 
     public void revealManuelCredits(){
-       CreditOutput.setText("Manuel did most of the Thunkable backup and wrote some of the story");
+       CreditOutput.setText("Jim did most of the Thunkable backup and wrote some of the story");
     }
 
     public void revealJosiahCredits(){
-       CreditOutput.setText("Josiah designed the icon, helped with play testing, and came up with parts of the early story ");
+       CreditOutput.setText("Bill designed the icon, helped with play testing, and came up with parts of the early story  ");
     }
 
     public void revealHassebCredit(){
 
-        CreditOutput.setText("Hasseb helped with the Thunkable backup");
+        CreditOutput.setText("Hasseb21 helped with the Thunkable backup");
     }
 
     public void revealJonathanCredit(){
-        CreditOutput.setText("Jonathan coded the app that you are using now, he also wrote the story, and built the GUI");
+        CreditOutput.setText("CodingGuy coded the app that you are using now, he also wrote the story, and built the GUI");
     }
 
     public void CreditsBackClick(ActionEvent event) throws IOException {
