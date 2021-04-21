@@ -89,8 +89,8 @@
                   </Circle>
                </graphic>
             </Button>
-            <Label layoutX="357.0" layoutY="325.0" text="Manuel's Credits " textFill="WHITE" />
-            <Label layoutX="618.0" layoutY="325.0" text="Hasseb's Credits" textFill="WHITE" />
+            <Label layoutX="369.0" layoutY="325.0" text="Jims Credits " textFill="WHITE" />
+            <Label layoutX="618.0" layoutY="325.0" text="Hasseb21 Credits" textFill="WHITE" />
             <Pane layoutY="916.0" prefHeight="168.0" prefWidth="548.0" style="-fx-background-color: #4a5286;" />
             <Label fx:id="CreditOutput" layoutX="14.0" layoutY="917.0" prefHeight="168.0" prefWidth="534.0" text="OutPut" textFill="#7b8cff">
                <font>
@@ -122,7 +122,7 @@
                   </Circle>
                </graphic>
             </Button>
-            <Label fx:id="NothingLabel" layoutX="881.0" layoutY="325.0" text="Josiah's Credits" textFill="WHITE" />
+            <Label fx:id="NothingLabel" layoutX="894.0" layoutY="325.0" text="Bill Credits" textFill="WHITE" />
             <Button fx:id="BackButton" layoutX="1065.0" layoutY="150.0" mnemonicParsing="false" onAction="#CreditsBackClick" prefHeight="191.0" prefWidth="205.0" style="-fx-background-color: #4a5286;">
                <graphic>
                   <Circle radius="58.0" stroke="BLACK" strokeType="INSIDE">
